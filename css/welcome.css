@@ -1,0 +1,24 @@
+/* =====================================================
+   WELCOME PAGE  (index.html)
+   ===================================================== */
+
+.welcome-card {
+  max-width: 720px;
+  margin: 60px auto;
+  padding: 48px 36px;
+  background: var(--glass);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: var(--shadow);
+  text-align: center;
+  animation: fade 0.4s ease;
+}
+
+.welcome-card .emoji { font-size: 60px; line-height: 1; }
+.welcome-card h1 { margin-top: 14px; }
+.welcome-card .sub { font-size: 18px; margin-top: 12px; }
+
+.welcome-card .start-wrap { margin-top: 30px; }
+.welcome-card .start-btn { font-size: 18px; padding: 15px 34px; }

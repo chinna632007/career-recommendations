@@ -1,0 +1,28 @@
+/* =====================================================
+   RECOMMENDATION PAGE  (recommendation.html)
+   ===================================================== */
+
+.user-card {
+  max-width: 920px;
+  margin: 0 auto 18px;
+  padding: 20px 24px;
+  background: var(--glass-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.user-card h2 { margin: 0 0 8px; color: var(--primary); font-size: 20px; }
+.user-grid { display: flex; flex-wrap: wrap; gap: 6px 28px; }
+.user-grid p { margin: 4px 0; }
+
+.ai-form {
+  max-width: 920px;
+  margin: 22px auto;
+  padding: 24px;
+  text-align: center;
+  background: var(--glass);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.ai-form input { max-width: 420px; margin-left: auto; margin-right: auto; text-align: left; }
+
+#output { max-width: 920px; margin: 24px auto; }
