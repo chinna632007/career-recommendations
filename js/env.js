@@ -4,6 +4,6 @@
        node sync_env.js
    ========================================================== */
 window.__ENV = {
-  "OPENROUTER_API_KEY": "",
+  "OPENROUTER_API_KEY": "sk-or-v1-PLACEHOLDER_REPLACE_ME",
   "OPENROUTER_API_URL": "https://openrouter.ai/api/v1/chat/completions"
 };
